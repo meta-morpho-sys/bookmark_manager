@@ -5,15 +5,14 @@
   So that I can find useful information easily
   I need to see a list of links homepage
 
-  homepage --> show links
+  homepage --> show
 
 - As a Makers student
   So that I can update my Bookmark Manager
   I need to add the address and the title of the page
 
-  bookmark manager <-- link --> add
-                        ^        |
-                        |________|
+  homepage <-- link --> add
+
 
 - As a Makers student
   So that I organise my links by category  
