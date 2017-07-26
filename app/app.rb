@@ -1,3 +1,5 @@
+ENV["RACK_ENV"] ||= "development"
+
 require 'sinatra/base'
 require_relative 'models/link'
 
@@ -16,7 +18,7 @@ class BookmarkManager < Sinatra::Base
   # Here we create and store our links into a database. The links are extracted from the params.
   # Then we are redirected to links to view the new collection of links
   post '/links' do
-    # Link.create(url: params[:url], title: params[:title])
+    Link.create(url: params[:url], title: params[:title])
     redirect '/links'
   end
 
