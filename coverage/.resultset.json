@@ -1,6 +1,29 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/astarte/MAcourse/bookmark_manager/spec/creating_links_spec.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
       "/Users/astarte/MAcourse/bookmark_manager/spec/viewing_links_spec.rb": [
         null,
         null,
@@ -27,6 +50,6 @@
         null
       ]
     },
-    "timestamp": 1501083984
+    "timestamp": 1501088118
   }
 }
