@@ -1,0 +1,5 @@
+.DS_Store
+.idea/
+coverage/.resultset.json
+coverage/assets/
+coverage/index.html
