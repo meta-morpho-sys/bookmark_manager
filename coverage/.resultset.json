@@ -24,6 +24,20 @@
         null,
         null
       ],
+      "/Users/astarte/MAcourse/bookmark_manager/spec/features/adding_tags_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/astarte/MAcourse/bookmark_manager/spec/viewing_links_spec.rb": [
         null,
         null,
@@ -50,6 +64,6 @@
         null
       ]
     },
-    "timestamp": 1501113556
+    "timestamp": 1501162611
   }
 }
