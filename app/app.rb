@@ -18,16 +18,26 @@ class BookmarkManager < Sinatra::Base
   # Here we create and store our links into a database. The links are extracted from the params.
   # Then we are redirected to links to view the new collection of links
   post '/links' do
-    link = Link.new(url: params[:url],
-                    title: params[:title])
-    tag = Tag.first_or_create(name: params[:tags])
-    link.tags << tag
+    p params
+    link = Link.create(url: params[:url], title: params[:title])
+    params[:tags].split.each do |tag|
+      link.tags << Tag.first_or_create(name: tag)
+    end
     link.save
     redirect to('/links')
   end
 
-  get '/tags/:name' do
-    tag = Tag.first(name: params[:name])
+  # get '/tags/:name' do
+  #   tag = Tag.first(name: params[:name])
+  #   @links = tag ? tag.links : []
+  #   erb :'links/index'
+  # end
+
+  get '/tags/:tagname' do
+    # # params = {tagname: 'Alan'}
+    # # params[:tagname] => 'Alan'
+    # tag = Tag.first(name: 'Alan')
+    tag = Tag.first(name: params[:tagname])
     @links = tag ? tag.links : []
     erb :'links/index'
   end

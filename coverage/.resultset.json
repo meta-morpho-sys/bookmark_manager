@@ -36,6 +36,21 @@
         1,
         1,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
         null
       ],
       "/Users/astarte/MAcourse/bookmark_manager/spec/viewing_links_spec.rb": [
@@ -84,6 +99,6 @@
         null
       ]
     },
-    "timestamp": 1501167316
+    "timestamp": 1501192604
   }
 }
