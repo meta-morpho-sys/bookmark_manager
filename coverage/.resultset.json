@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Imogen/Projects/bookmark_manager/spec/creating_links_spec.rb": [
+      "/Users/astarte/MAcourse/bookmark_manager/spec/creating_links_spec.rb": [
         null,
         null,
         null,
@@ -24,7 +24,7 @@
         null,
         null
       ],
-      "/Users/Imogen/Projects/bookmark_manager/spec/features/adding_tags_spec.rb": [
+      "/Users/astarte/MAcourse/bookmark_manager/spec/features/adding_tags_spec.rb": [
         1,
         1,
         1,
@@ -53,7 +53,7 @@
         null,
         null
       ],
-      "/Users/Imogen/Projects/bookmark_manager/spec/features/user_management_spec.rb": [
+      "/Users/astarte/MAcourse/bookmark_manager/spec/features/user_management_spec.rb": [
         1,
         1,
         2,
@@ -63,10 +63,12 @@
         null,
         1,
         2,
+        1,
+        1,
         null,
         null
       ],
-      "/Users/Imogen/Projects/bookmark_manager/spec/viewing_links_spec.rb": [
+      "/Users/astarte/MAcourse/bookmark_manager/spec/viewing_links_spec.rb": [
         null,
         null,
         null,
@@ -112,6 +114,6 @@
         null
       ]
     },
-    "timestamp": 1501252801
+    "timestamp": 1501257454
   }
 }
